@@ -3,5 +3,5 @@ from django.shortcuts import render
 from django.http import HttpResponse
 
 def index(request):
-    return HttpResponse("Olá, mundo. Você está no index da enquete")
+    return HttpResponse("Este é meu primeiro site utilizando django")
 
