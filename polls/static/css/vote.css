@@ -1,0 +1,24 @@
+h1{
+    color: rgb(16, 236, 60);
+    font-weight: 700;
+}
+
+fieldset input, label{
+  
+}
+
+fieldset{
+    margin-bottom: 20px;
+}
+
+.botao{
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.divisao{
+    border: 3px solid rgb(177, 177, 177);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}

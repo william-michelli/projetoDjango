@@ -1,0 +1,21 @@
+ul{
+    color: rgb(16, 236, 60);
+    font-weight: 700;
+    font-size: large;
+}
+
+h1{
+    text-align: center;
+    color: rgb(16, 236, 60);
+    font-weight: 700;
+    font-size: 4rem;
+    padding-bottom: 40px;
+}
+
+.divisao{
+    border: 3px solid rgb(177, 177, 177);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
