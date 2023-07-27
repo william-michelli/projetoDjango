@@ -8,12 +8,24 @@
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="{% static 'css/index.css' %}">
+
+    <style>
+        #imagem{
+            position: relative;
+            top: -30px;
+        }
+
+    </style>
 </head>
 <body>
 
 <div class="divisao">
     <h1>Enquetes</h1>
-    <hr>
+
+    <picture>
+        <img id="imagem" width="200px" src="{% static '/media/question.jpg' %}" alt="">
+    </picture>
+    
     {% if latest_question_list %}
     <ul>
     {% for question in latest_question_list %}
@@ -26,6 +38,6 @@
 
 </div>
 
-    
+
 </body>
 </html>
